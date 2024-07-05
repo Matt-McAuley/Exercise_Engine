@@ -2,7 +2,10 @@
 ## Contents
 
 - [Summary](#summary)
+- [Images](#images)
 - [Running Locally](#running-locally)
+- [Online Hosting](#online-hosting)
+- [Authors](#authors)
 
 ## Summary
 
@@ -44,6 +47,7 @@ The website server is hosted on the [Class Website](http://4300showcase.infosci.
 
 
 ## Authors
+
 ### Matthew McAuley
 mwm223@cornell.edu
 
