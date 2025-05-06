@@ -42,8 +42,6 @@ iterative process to reach the final product. It taught me about the importance 
 technologies, I learned about building an API with Flask, making frontend requests to said API, webscraping with Selenium, implementing the various text analysis methods we learned in class, and how to 
 containerize a project and deploy it on the cloud.
 
-The website link can be found below along with a demo video displaying the main functionalities.
-
 ## Online Hosting
 The website is hosted on an [AWS Instance](http://18.218.132.35).
 
