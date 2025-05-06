@@ -48,10 +48,16 @@ The website is hosted on an [AWS Instance](http://18.218.132.35).
 ## Images
 
 #### Home Page
-<img src="https://matt-mcauley.github.io/assets/img/Exercise_Engine/home.png" alt="Home Page Image" style="width: 95%">
+<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/home.png" alt="Home Page Image" style="width: 95%">
 
 #### Results Page
-<img src="https://matt-mcauley.github.io/assets/img/Exercise_Engine/results.png" alt="Results Page Image" style="width: 95%">
+<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/results.png" alt="Results Page Image" style="width: 95%">
+
+#### Filters
+<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/results_filtered.png" alt="Results Page Image" style="width: 95%">
+
+#### Freeform Query
+<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/freeform.png" alt="Results Page Image" style="width: 95%">
 
 ## Running locally
 
