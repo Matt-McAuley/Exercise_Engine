@@ -1,5 +1,3 @@
-version: '3.10'
-
 services:
         exercise-engine:
                 image: mattmcauley/exercise-engine
