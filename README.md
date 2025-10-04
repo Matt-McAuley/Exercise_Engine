@@ -28,16 +28,16 @@ The website is hosted on an [Oracle Cloud Instance](http://150.136.113.36/).
 ## Images
 
 #### Home Page
-<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/home.png" alt="Image" style="width: 95%">
+<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/home.png" alt="Image" style="width: 850px">
 
 #### Results Page
-<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/results.png" alt="Image" style="width: 95%">
+<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/results.png" alt="Image" style="width: 850px">
 
 #### Filters
-<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/results_filtered.png" alt="Image" style="width: 95%">
+<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/results_filtered.png" alt="Image" style="width: 850px">
 
 #### Freeform Query
-<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/freeform.png" alt="Image" style="width: 95%">
+<img src="https://mattmcauley.com/assets/projects/Exercise_Engine/freeform.png" alt="Image" style="width: 850px">
 
 ## Running locally
 
