@@ -6,7 +6,7 @@
 - [Online Hosting](#online-hosting)
 - [Images](#images)
 - [Running Locally](#running-locally)
-- [Authors](#authors)
+- [Author](#author)
 
 ## Description
 
@@ -19,8 +19,6 @@ The backend of our website is a python app built using the Flask framework. It l
 We decided to use web scraping to acquire our dataset because we had difficulty finding any pre-existing datasets that were suitable for our project on websites such as kaggle. Our professor prohibited simple table lookups such as returning exercises that used the same body part, and we instead had to do some sort of text mining. Web Scraping allowed us to get a decent sized corpus of exercises with long enough descriptions such that SVD could effectively be run on them to create meaningful semantic embeddings. However, the descriptions were not as long as we would have liked for many of them and this lead to some poor results. For comparing other datasets such as books, there is an extensive amount of text to work with and the SVD embeddings are much more effective. This was the biggest roadblock we faced, and we never came to an effective solution for where to source good descriptions from because most are proprietary.
 
 Once the class concluded, I decided that it would be a fun exercise to fork and try and host on the cloud. I created a Dockerfile to containerize the project and familiarized myself with building images and running containers as well as pushing to Docker Hub. I also learned about using AWS to create an EC2 VM instance and how to SSH into it to run the container. I installed Docker and Docker Compose on the instance so that I was able to pull down the image and run the container. After opening the necessary ports and configuring the security group, I was able to access the website from any local machine through the public IP address. After my AWS free tier subscription concluded, I hosted it on an Oracle Cloud always free instance.
-
-This project was a great learning experience as it provided me with an opportunity to work with a team on a full-stack project. We were required to develop app prototypes along the way, and it was a very  iterative process to reach the final product. It taught me about the importance of version control and also how to contribute to separate tasks that are able to come together seamlessly in the end. In terms of  technologies, I learned about building an API with Flask, making frontend requests to said API, web scraping with Selenium, implementing the various text analysis methods we learned in class, and how to  containerize a project and deploy it on the cloud.
 
 ## Online Hosting
 The website is hosted on an [Oracle Cloud Instance](http://150.136.113.36/).
@@ -55,21 +53,8 @@ You need to install dependencies by running `python -m pip install -r requiremen
 #### Step 4: Command to run project locally:
 ```python backend/app.py```
 
-## Authors
+## Author
 
-<table style="border-collapse: collapse; border:none;">
-  <tr  style="border:none;">
-    <td style="border:none;"><strong>Matthew McAuley</strong></td>
-    <td style="border:none;"><strong>Sharanya Dabas</strong></td>
-    <td style="border:none;"><strong>Eman Abdu</strong></td>
-    <td style="border:none;"><strong>Alex Kushnirsky</strong></td>
-    <td style="border:none;"><strong>RJ Powers</strong></td>
-  </tr>
-  <tr style="border:none;">
-    <td style="border:none;">mwm223@cornell.edu</td>
-    <td style="border:none;">sd699@cornell.edu</td>
-    <td style="border:none;">ema88@cornell.edu</td>
-    <td style="border:none;">ask256@cornell.edu</td>
-    <td style="border:none;">rgp58@cornell.edu</td>
-  </tr>
-</table>
+[Matt McAuley](https://mattmcauley.com) | Software Engineer | Cornell Computer Science  
+mwm223@cornell.edu
+
