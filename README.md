@@ -21,7 +21,7 @@ We decided to use web scraping to acquire our dataset because we had difficulty 
 Once the class concluded, I decided that it would be a fun exercise to fork and try and host on the cloud. I created a Dockerfile to containerize the project and familiarized myself with building images and running containers as well as pushing to Docker Hub. I also learned about using AWS to create an EC2 VM instance and how to SSH into it to run the container. I installed Docker and Docker Compose on the instance so that I was able to pull down the image and run the container. After opening the necessary ports and configuring the security group, I was able to access the website from any local machine through the public IP address. After my AWS free tier subscription concluded, I hosted it on an Oracle Cloud always free instance.
 
 ## Online Hosting
-The website is hosted on an [Oracle Cloud Instance](http://150.136.113.36/).
+The website is hosted at [https://exerciseengine.fit](https://exerciseengine.fit).
 
 ## Images
 
@@ -55,6 +55,22 @@ You need to install dependencies by running `python -m pip install -r requiremen
 
 ## Author
 
-[Matt McAuley](https://mattmcauley.com) | Software Engineer | Cornell Computer Science  
-mwm223@cornell.edu
+<div align="center">
+
+### Matt McAuley
+
+<table align="center" style="border: none; border-collapse: collapse; margin: 0 auto; margin-top: -6px; margin-bottom: 14px; width: 440px;">
+  <tr style="border: none;">
+    <td align="right" style="border: none; padding: 0 10px 0 0; width: 50%; white-space: nowrap;">Software Engineer</td>
+    <td style="border: none; padding: 0; width: 1px; color: #888;">|</td>
+    <td align="left" style="border: none; padding: 0 0 0 10px; width: 50%; white-space: nowrap;">Cornell Computer Science</td>
+  </tr>
+</table>
+
+[![Website](https://img.shields.io/badge/Website-mattmcauley.com-0078D4?style=flat-square&logo=googlechrome&logoColor=white)](https://mattmcauley.com)&nbsp;&nbsp;
+[![Email](https://img.shields.io/badge/Email-mwm223@cornell.edu-b31b1b?style=flat-square&logo=gmail&logoColor=white)](mailto:mwm223@cornell.edu)&nbsp;&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-matt--mcauley-6e5494?style=flat-square&logo=github)](https://github.com/matt-mcauley)
+
+</div>
+
 
